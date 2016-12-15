@@ -281,6 +281,7 @@ component output="false" accessors="true"
         * @listID The unique id for the list
         * @email The email to work with (transformed to a lowercase MD5 hash in function)
         * @body JSON body content
+        * @updateOnly This call allows to add or update only, by default we allow both - set to true to only update
         */
         public struct function memberUpdate(
             required string listID,
